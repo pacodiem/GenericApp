@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FragmentTransitions</string>
+
+    <string name="details_title_text">Cupcake ipsum dolor</string>
+    <string name="details_body_text">Sit amet chocolate cake sweet macaroon chupa chups. Bear claw carrot cake chocolate bar biscuit chocolate cookie. Chocolate sesame snaps candy canes bear claw dragée tootsie roll.</string>
+
+    <string name="tab_2">TAB 2</string>
+    <string name="tab_1">TAB 1</string>
+
+    <string name="api_key">2b693bb30cf57ac27cb86e6b92f62546</string>
+</resources>
