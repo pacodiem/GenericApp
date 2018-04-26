@@ -14,8 +14,7 @@ import javax.inject.Singleton
 class PresenterModule{
 
     @Provides
-    //@Singleton
-    //fun providesArtistListPresenter(lastFMService: LastFMService): ArtistListPresenter = ArtistListPresenter(lastFMService)
-    fun providesArtistListPresenter(lastFMRepository: LastFMRepository): ArtistListPresenter = ArtistListPresenter(lastFMRepository)
+    //@Singleton // As this presenter is used twice it cannot be singleton
 
+    fun providesArtistListPresenter(lastFMRepository: LastFMRepository): ArtistListPresenter = ArtistListPresenter(lastFMRepository)
 }
